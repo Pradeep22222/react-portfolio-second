@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Inria Serif", serif;
+  font-size: 1.3rem;
+}
+
+.nav-font {
+  font-family: "Inknut Antiqua", serif;
+}
+
+/* hero section */
+
+.hero {
+  min-height: 60vh;
+  font-weight: 600;
+  background: linear-gradient(90.04deg, #4cb632 0.04%, #ada939 99.97%);
+}
+
+/* titles */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+.title span {
+  padding: 0.5rem 2rem;
+  border-bottom: 0.4rem solid green;
+}
+
+/* icons */
+
+.icons i {
+  font-size: 5rem;
+}
+
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* project section */
+.projects {
+  background: #485303;
+}
+
+.projects .row {
+  --bs-gutter-x: 0;
+}
+.c-p {
+  background: rgba(197, 0, 230, 0.59);
+}
+
+.projects a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* about me section */
+
+.about {
+  background: rgba(96, 165, 27, 0.26);
+  border-radius: 31px;
+}
+
+.tilt {
+  transform: rotate(-11deg);
+}
