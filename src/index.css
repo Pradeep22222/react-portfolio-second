@@ -19,11 +19,13 @@ body {
 /* hero section */
 
 .hero {
-  min-height: 60vh;
   font-weight: 600;
   background: linear-gradient(90.04deg, #4cb632 0.04%, #ada939 99.97%);
+  margin-bottom: 0;
 }
-
+.description {
+  background: linear-gradient(90.04deg, #4cb632 0.04%, #ada939 99.97%);
+}
 /* titles */
 .title {
   text-align: center;

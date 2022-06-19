@@ -1,13 +1,13 @@
 import React from "react";
-import profile from "./../assets/my_profile.png";
 import logo from "./../assets/logo.png";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-light bg-opacity-10">
+    <nav className="navbar navbar-expand-md navbar-light bg-light bg-opacity-10 hero">
       <div className="container">
-        <a className="navbar-brand nav-font" href="#">
+        <Link className="navbar-brand nav-font" to="/">
           <img src={logo} altwidth="80px" alt="logo" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,35 +26,39 @@ export const Header = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#skills">
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                to="/skills"
+              >
                 Skills
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 aria-current="page"
-                href="#projects"
+                to="/projects"
               >
                 Projects
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#about">
+              <Link className="nav-link active" aria-current="page" to="/about">
                 About Me
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 aria-current="page"
-                href="#contact"
+                to="/contact"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
